@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## FRONTEND SETUP
+1. Navigate to frontend directory
+    cd frontend
+2. Install dependencies
+    npm install
+3. Start server
+    npm start
+
+## Libraries Used
+- React
+- Axios
+- Tailwind CSS (v3.4.1)
+- Recharts
