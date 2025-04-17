@@ -1,11 +1,16 @@
-import './App.css';
+import React from 'react';
+import Dashboard from './pages/Dashboard';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="p-10 bg-indigo-600 text-white text-3xl font-bold rounded-lg shadow-md">
-    🚀 Tailwind is working!
-  </div>
-);
+    <Router>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
